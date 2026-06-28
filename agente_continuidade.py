@@ -7,7 +7,7 @@ import requests
 from datetime import datetime
 
 # 1. CONFIGURAÇÃO
-API_KEY = "sk-or-v1-27dXXXXXXXXXXXXXXXX"  # <-- SUA CHAVE AQUI
+API_KEY = "xxxxxx"  # <-- SUA CHAVE AQUI
 MODELO = "qwen/qwen-2.5-72b-instruct"
 LIMITE_CONTEXTO = 128000
 THRESHOLD_ALERTA = 0.75
