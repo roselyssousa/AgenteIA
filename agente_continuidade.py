@@ -6,7 +6,10 @@ from datetime import datetime
 # ==========================================
 # CONFIGURAÇÕES (SUBSTITUA SUA CHAVE AQUI)
 # ==========================================
-SUA_CHAVE_OPENROUTER = "xxxxxxxxxxxxxxxx"  # COLE SUA CHAVE VERDADEIRA AQUI
+import os
+from dotenv import load_dotenv
+load_dotenv()
+SUA_CHAVE_OPENROUTER = os.getenv("SUA_CHAVE_OPENROUTER")
 ARQUIVO_CONTINUIDADE = "continuidade_conversa.json"
 ARQUIVO_RESUMO_ULTIMO = "resumo_ultimo.txt"
 
